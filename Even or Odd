@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+   int i;
+    cout << "Enter the Number: " << endl;
+cin >> i;
+if(i%2==0)
+{ cout << "This is Even" << endl;
+}
+cout << "This is odd" << endl;
+return 0;
+}
